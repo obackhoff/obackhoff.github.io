@@ -20,7 +20,6 @@ function setup() {
   colorMode(HSB, 255);
   cols = floor(width / scl);
   rows = floor(height / scl);
-  fr = createP('');
 
   flowfield = new Array(cols * rows);
 
@@ -65,5 +64,4 @@ function draw() {
     particles[i].show();
   }
 
-  fr.html(floor(frameRate()));
 }
