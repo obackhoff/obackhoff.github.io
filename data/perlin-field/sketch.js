@@ -60,4 +60,5 @@ function draw() {
     particles[i].edges();
     particles[i].show();
   }
+  background(51, 2);
 }
