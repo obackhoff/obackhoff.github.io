@@ -1,7 +1,5 @@
 
 
-  
-
 
 
 
@@ -18,9 +16,9 @@
   
   
   
-    <meta name="description" content="Where some of my stuff goes">
+    <meta name="description" content="This is a montecarlo simulation that generates Pi using P5js.">
   
-  <title>Archives [ Omar Backhoff ]</title>
+  <title>pi-montecarlo [ Omar Backhoff ]</title>
   
   
     <link rel="shortcut icon" href="/fav.png">
@@ -39,6 +37,24 @@
 <body>
 <div class="side-navigate hide-area">
   
+    <div class="item prev">
+      <a href="/perlin-field/">
+        <div class="item-icon"></div>
+      </a>
+      <div class="item-title">
+        perlin-field
+      </div>
+    </div>
+  
+  
+    <div class="item next">
+      <a href="/welcome/">
+        <div class="item-icon"></div>
+      </a>
+      <div class="item-title">
+        Welcome
+      </div>
+    </div>
   
 </div>
 <div id="outer-container" class="hide-area">
@@ -64,7 +80,7 @@
           </li>
         
           
-            <li class="active">
+            <li>
           
             <a href="/archives">Archives</a>
             
@@ -103,122 +119,47 @@
     <div id="content-inner">
       
       
-  <article>
-    
-
-  <div id="recent-posts">
-    <h1>Archives
-    
-      <span class="posts-count">
-      Total
-      3
+  <article id="post">
+    <h1>pi-montecarlo</h1>
+    <p class="page-title-sub">
+      <span id = "post-title-date">Created at 2017-03-21</span>
       
-        posts
-      
-      </span>
-    
-    </h1>
-    
-    
-      
-      
-        
-      
-      
-    
+        <span id = "post-title-updated">Updated at 2017-03-21</span>
       
       
       
+    </p>
     
-      
-      
-      
-    
-    
-    
-      
-      
-        
-        <h3 class="archive-year-title">2017
-        
-          <span class="posts-count">
-          Total
-          3
-          
-            posts
-          
-          </span>
-        
-        </h3>
-      
-      <div class="post-title-item">
-  
-  <a href="/perlin-field/">
-  
-    perlin-field
-  
-  </a>
-  <p class="page-title-sub">
-    <span id = "post-title-date">3-21</span>
-    
-    
-    
-      <br>
-      
-      
-    
-  </p>
-  
-</div>
-    
-      
-      
-      <div class="post-title-item">
-  
-  <a href="/pi-montecarlo/">
-  
-    pi-montecarlo
-  
-  </a>
-  <p class="page-title-sub">
-    <span id = "post-title-date">3-21</span>
-    
-    
-    
-      <br>
-      
-      
-    
-  </p>
-  
-</div>
-    
-      
-      
-      <div class="post-title-item">
-  
-  <a href="/welcome/">
-  
-    Welcome
-  
-  </a>
-  <p class="page-title-sub">
-    <span id = "post-title-date">1-30</span>
-    
-    
-    
-      <br>
-      
-      
-    
-  </p>
-  
-</div>
-    
-  </div>
-
+    <p>This is a montecarlo simulation that generates Pi using P5js.</p>
+<iframe src="../data/pi-montecarlo/sketch.html" width="700" height="500" frameborder="0" allowfullscreen></iframe>
 
   </article>
+  <div class="random-toc-area">
+  <button class="btn-hide-toc btn-hide-toc-show" style="display: none" onclick="TOCToggle()">Show TOC</button>
+  <button class="btn-hide-toc btn-hide-toc-hide" onclick="TOCToggle()">Hide TOC</button>
+  <div class="random-toc">
+    <h2>Table of Content</h2>
+    
+  </div>
+</div>
+
+  
+<nav id="pagination">
+  
+    <a href="/perlin-field/" class="prev">&larr; Prev post perlin-field</a>
+  
+
+  
+
+  
+    <a href="/welcome/" class="next">Next post Welcome &rarr;</a>
+  
+</nav>
+
+  <!-- JiaThis Button BEGIN -->
+
+<!-- JiaThis Button END -->
+
 
       
       
@@ -336,6 +277,8 @@ var unsplashConfig = {"gravity":"north"};
 var turnoffBackgroundImage = false;
 
 
+
+  turnoffBackgroundImage = true;
 
 
 var backgroundColor = "34495E";

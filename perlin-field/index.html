@@ -1,7 +1,5 @@
 
 
-  
-
 
 
 
@@ -18,9 +16,9 @@
   
   
   
-    <meta name="description" content="Where some of my stuff goes">
+    <meta name="description" content="This is a generative art sketch that draws streams of colors in a perlin noise field.">
   
-  <title>Archives [ Omar Backhoff ]</title>
+  <title>perlin-field [ Omar Backhoff ]</title>
   
   
     <link rel="shortcut icon" href="/fav.png">
@@ -39,6 +37,15 @@
 <body>
 <div class="side-navigate hide-area">
   
+  
+    <div class="item next">
+      <a href="/pi-montecarlo/">
+        <div class="item-icon"></div>
+      </a>
+      <div class="item-title">
+        pi-montecarlo
+      </div>
+    </div>
   
 </div>
 <div id="outer-container" class="hide-area">
@@ -64,7 +71,7 @@
           </li>
         
           
-            <li class="active">
+            <li>
           
             <a href="/archives">Archives</a>
             
@@ -103,122 +110,45 @@
     <div id="content-inner">
       
       
-  <article>
-    
-
-  <div id="recent-posts">
-    <h1>Archives
-    
-      <span class="posts-count">
-      Total
-      3
+  <article id="post">
+    <h1>perlin-field</h1>
+    <p class="page-title-sub">
+      <span id = "post-title-date">Created at 2017-03-21</span>
       
-        posts
-      
-      </span>
-    
-    </h1>
-    
-    
-      
-      
-        
-      
-      
-    
+        <span id = "post-title-updated">Updated at 2017-03-21</span>
       
       
       
+    </p>
     
-      
-      
-      
-    
-    
-    
-      
-      
-        
-        <h3 class="archive-year-title">2017
-        
-          <span class="posts-count">
-          Total
-          3
-          
-            posts
-          
-          </span>
-        
-        </h3>
-      
-      <div class="post-title-item">
-  
-  <a href="/perlin-field/">
-  
-    perlin-field
-  
-  </a>
-  <p class="page-title-sub">
-    <span id = "post-title-date">3-21</span>
-    
-    
-    
-      <br>
-      
-      
-    
-  </p>
-  
-</div>
-    
-      
-      
-      <div class="post-title-item">
-  
-  <a href="/pi-montecarlo/">
-  
-    pi-montecarlo
-  
-  </a>
-  <p class="page-title-sub">
-    <span id = "post-title-date">3-21</span>
-    
-    
-    
-      <br>
-      
-      
-    
-  </p>
-  
-</div>
-    
-      
-      
-      <div class="post-title-item">
-  
-  <a href="/welcome/">
-  
-    Welcome
-  
-  </a>
-  <p class="page-title-sub">
-    <span id = "post-title-date">1-30</span>
-    
-    
-    
-      <br>
-      
-      
-    
-  </p>
-  
-</div>
-    
-  </div>
-
+    <p>This is a generative art sketch that draws streams of colors in a perlin noise field.</p>
+<iframe src="../data/perlin-field/index.html" width="500" height="400" frameborder="0" allowfullscreen></iframe>
 
   </article>
+  <div class="random-toc-area">
+  <button class="btn-hide-toc btn-hide-toc-show" style="display: none" onclick="TOCToggle()">Show TOC</button>
+  <button class="btn-hide-toc btn-hide-toc-hide" onclick="TOCToggle()">Hide TOC</button>
+  <div class="random-toc">
+    <h2>Table of Content</h2>
+    
+  </div>
+</div>
+
+  
+<nav id="pagination">
+  
+
+  
+
+  
+    <a href="/pi-montecarlo/" class="next">Next post pi-montecarlo &rarr;</a>
+  
+</nav>
+
+  <!-- JiaThis Button BEGIN -->
+
+<!-- JiaThis Button END -->
+
 
       
       
@@ -336,6 +266,8 @@ var unsplashConfig = {"gravity":"north"};
 var turnoffBackgroundImage = false;
 
 
+
+  turnoffBackgroundImage = true;
 
 
 var backgroundColor = "34495E";
