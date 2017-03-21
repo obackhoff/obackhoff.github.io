@@ -16,17 +16,9 @@
   
   
   
-    <meta name="description" content="Pi Montecarlo generation
-
-Generative Art - Perlin noise field
-
-Smart rockets
-
-Particles and perlin force field
-
-Connections">
+    <meta name="description" content="Just a pretty animation of particles connecting to others nearby.">
   
-  <title>Coding posts [ Omar Backhoff ]</title>
+  <title>connections [ Omar Backhoff ]</title>
   
   
     <link rel="shortcut icon" href="/fav.png">
@@ -45,6 +37,15 @@ Connections">
 <body>
 <div class="side-navigate hide-area">
   
+  
+    <div class="item next">
+      <a href="/perlin-particles/">
+        <div class="item-icon"></div>
+      </a>
+      <div class="item-title">
+        perlin-particles
+      </div>
+    </div>
   
 </div>
 <div id="outer-container" class="hide-area">
@@ -77,7 +78,7 @@ Connections">
           </li>
         
           
-            <li class="active">
+            <li>
           
             <a href="/coding">Coding</a>
             
@@ -109,23 +110,29 @@ Connections">
     <div id="content-inner">
       
       
-  <article id="page">
-    
-    
-      <h1 class="">Coding posts</h1>
+  <article id="post">
+    <h1>connections</h1>
+    <p class="page-title-sub">
+      <span id = "post-title-date">Created at 2017-03-21</span>
       
-      <a href="/pi-montecarlo/" title="Pi Montecarlo generation">Pi Montecarlo generation</a>
-<hr>
-<a href="/perlin-field/" title="Generative Art - Perlin noise field">Generative Art - Perlin noise field</a>
-<hr>
-<a href="/smart-rockets/" title="Smart rockets">Smart rockets</a>
-<hr>
-<a href="/perlin-particles/" title="Particles and perlin force field">Particles and perlin force field</a>
-<hr>
-<a href="/connections/" title="Connections">Connections</a>
-
+        <span id = "post-title-updated">Updated at 2017-03-21</span>
+      
+      
+      
+    </p>
     
+    <p>Just a pretty animation of particles connecting to others nearby.</p>
+<iframe src="../data/connections/index.html" width="700" height="500" frameborder="0" allowfullscreen></iframe>
+
   </article>
+  <div class="random-toc-area">
+  <button class="btn-hide-toc btn-hide-toc-show" style="display: none" onclick="TOCToggle()">Show TOC</button>
+  <button class="btn-hide-toc btn-hide-toc-hide" onclick="TOCToggle()">Hide TOC</button>
+  <div class="random-toc">
+    <h2>Table of Content</h2>
+    
+  </div>
+</div>
 
   
 <nav id="pagination">
@@ -133,6 +140,8 @@ Connections">
 
   
 
+  
+    <a href="/perlin-particles/" class="next">Next post perlin-particles &rarr;</a>
   
 </nav>
 
@@ -257,6 +266,8 @@ var unsplashConfig = {"gravity":"north"};
 var turnoffBackgroundImage = false;
 
 
+
+  turnoffBackgroundImage = true;
 
 
 var backgroundColor = "34495E";
