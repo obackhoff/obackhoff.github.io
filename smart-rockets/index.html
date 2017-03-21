@@ -16,13 +16,9 @@
   
   
   
-    <meta name="description" content="Pi Montecarlo generation
-
-Generative Art - Perlin noise field
-
-Smart rockets">
+    <meta name="description" content="This is a very simple genetic algorithm which makes the “rockets” learn to reach the target by combining and mutating their “genes” for newer generations.">
   
-  <title>Coding posts [ Omar Backhoff ]</title>
+  <title>smart-rockets [ Omar Backhoff ]</title>
   
   
     <link rel="shortcut icon" href="/fav.png">
@@ -41,6 +37,15 @@ Smart rockets">
 <body>
 <div class="side-navigate hide-area">
   
+  
+    <div class="item next">
+      <a href="/perlin-field/">
+        <div class="item-icon"></div>
+      </a>
+      <div class="item-title">
+        perlin-field
+      </div>
+    </div>
   
 </div>
 <div id="outer-container" class="hide-area">
@@ -73,7 +78,7 @@ Smart rockets">
           </li>
         
           
-            <li class="active">
+            <li>
           
             <a href="/coding">Coding</a>
             
@@ -105,19 +110,29 @@ Smart rockets">
     <div id="content-inner">
       
       
-  <article id="page">
-    
-    
-      <h1 class="">Coding posts</h1>
+  <article id="post">
+    <h1>smart-rockets</h1>
+    <p class="page-title-sub">
+      <span id = "post-title-date">撰写于 2017-03-21</span>
       
-      <a href="/pi-montecarlo/" title="Pi Montecarlo generation">Pi Montecarlo generation</a>
-<hr>
-<a href="/perlin-field/" title="Generative Art - Perlin noise field">Generative Art - Perlin noise field</a>
-<hr>
-<a href="/smart-rockets/" title="Smart rockets">Smart rockets</a>
-
+        <span id = "post-title-updated">修改于 2017-03-21</span>
+      
+      
+      
+    </p>
     
+    <p>This is a very simple genetic algorithm which makes the “rockets” learn to reach the target by combining and mutating their “genes” for newer generations.</p>
+<iframe src="../data/smart-rockets/index.html" width="500" height="400" frameborder="0" allowfullscreen></iframe>
+
   </article>
+  <div class="random-toc-area">
+  <button class="btn-hide-toc btn-hide-toc-show" style="display: none" onclick="TOCToggle()">显示目录</button>
+  <button class="btn-hide-toc btn-hide-toc-hide" onclick="TOCToggle()">隐藏目录</button>
+  <div class="random-toc">
+    <h2>目录</h2>
+    
+  </div>
+</div>
 
   
 <nav id="pagination">
@@ -125,6 +140,8 @@ Smart rockets">
 
   
 
+  
+    <a href="/perlin-field/" class="next">下一篇 perlin-field &rarr;</a>
   
 </nav>
 
@@ -249,6 +266,8 @@ var unsplashConfig = {"gravity":"north"};
 var turnoffBackgroundImage = false;
 
 
+
+  turnoffBackgroundImage = true;
 
 
 var backgroundColor = "34495E";
