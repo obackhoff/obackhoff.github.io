@@ -4,7 +4,7 @@
 // http://patreon.com/codingrainbow
 // Code for: https://youtu.be/BjoM9oKOAKY
 
-var inc = 0.1;
+var inc = 0.15;
 var scl = 30;
 var cols, rows;
 
@@ -51,7 +51,7 @@ function draw() {
     }
     yoff += inc;
 
-    zoff += 0.0005;
+    zoff += 0.00075;
   }
 
   for (var i = 0; i < particles.length; i++) {
