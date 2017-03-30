@@ -47,7 +47,7 @@ function draw() {
     mic.stop();
     fft.setInput(song);
     songActive = true;
-    micAcitve = false;
+    micActive = false;
   }
   if(radio.value() == 2 && !micActive){
     if(!mic) mic = new p5.AudioIn();
