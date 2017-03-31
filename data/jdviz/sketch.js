@@ -19,7 +19,7 @@ function setup() {
   createCanvas(600, 600).parent('#canvas');
   //mic = new p5.AudioIn();
   //mic.start();
-  fft = new p5.FFT();
+  fft = new p5.FFT(0.7);
   //fft.setInput(song);
   // song.play();
   divs = 52;
